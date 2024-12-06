@@ -66,7 +66,6 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">My Portfolio</a></li>
-          <li><a href="#projects">My Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -106,7 +105,7 @@
           data-aos-duration="1400"
           data-aos-delay="400"
         >
-          <a href="#about" class="btn">Know Me</a>
+          <a href="#about" class="btn" aria-label="Toggle navigation menu">Know Me</a>
         </div>
       </div>
 
@@ -114,25 +113,34 @@
 
     <div class="icons">
       <a
-        href="#"
+        href="https://github.com/AyanokoujiCoder"
+        target="_blank"
+        rel="noopener noreferrer"
         data-aos="fade-in"
         data-aos-duration="1400"
         data-aos-delay="600"
+        aria-label="Visit my GitHub profile"
         ><i class="ri-github-fill"></i>
       </a>
       <a
-        href="#"
+        href="https://www.linkedin.com/in/angel-calleja-414a212b4/"
+        target="_blank"
+        rel="noopener noreferrer"
         data-aos="fade-in"
         data-aos-duration="1400"
         data-aos-delay="700"
+        aria-label="Visit my LinkedIn profile"
         ><i class="ri-linkedin-box-fill"></i>
       </a>
       <a
-        href="#"
+        href="https://www.upwork.com/freelancers/~01d265c2eec5fc7bad"
+        target="_blank"
+        rel="noopener noreferrer"
         data-aos="fade-in"
         data-aos-duration="1400"
         data-aos-delay="800"
-        ><i class="ri-mail-fill"></i>
+        aria-label="Visit my Upwork profile"
+        ><i class='bx bxl-upwork'></i>
       </a>
     </div>
 
@@ -148,7 +156,7 @@
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="img/about.jpg">
+        <img src="img/about.jpg" alt="A professional portrait or illustrative image representing me as a programmer.">
       </div>
 
       <div class="about-text">
@@ -174,7 +182,7 @@
             </div>
 
           </div>
-          <a href="#skills" class="btn">My Skills</a>
+          <a href="#skills" class="btn" aria-label="Navigate to my skills section">My Skills</a>
         </div>
      </section>
 
@@ -274,128 +282,99 @@
 
     <section class="portfolio" id="portfolio">
       <div class="main-text">
-        <h2>My Portfolio</h2>
-        <h4>Some Of My Distinguished Works</h4>
+        <h2>My Portfolio</h1>
+        <h4>Some Of My Distinguished Works</h2>
       </div>
-
-        <div class="portfolio-content">
-          <div class="row">
-            <img src="img/restaurant-honey.png">
-            <div class="main-row">
-              <div class="row-text">
-                <h6>Development</h6>
-              </div>
-              <div class="row-icon">
-                <i class='bx bx-heart'></i>
-              </div>
+    
+      <div class="portfolio-content">
+        <!-- Primera imagen: HTML, CSS y JavaScript -->
+        <div class="row">
+          <img src="img/restaurant-honey.png" alt="Screenshot of the Restaurant Honey mobile app landing design showcasing the main interface with service options." />
+          <div class="main-row">
+            <div class="row-text">
+              <h3>Restaurant Honey</h3>
             </div>
-            <h3>Mobile app landing design & Services</h3>
-          </div>
-
-          <div class="row">
-            <img src="img/social-app.png">
-            <div class="main-row">
-              <div class="row-text">
-                <h6>Development</h6>
-              </div>
-              <div class="row-icon">
-                <i class='bx bx-heart'></i>
-              </div>
+            <div class="row-icon">
+              <i class='bx bx-heart' aria-hidden="true"></i>
             </div>
-            <h3>Mobile app landing design & Services</h3>
           </div>
-
-          <div class="row">
-            <img src="img/amazon.png">
-            <div class="main-row">
-              <div class="row-text">
-                <h6>Development</h6>
-              </div>
-              <div class="row-icon">
-                <i class='bx bx-heart'></i>
-              </div>
-            </div>
-            <h3>Mobile app landing design & Services</h3>
-          </div>
-
-          <div class="row">
-            <img src="img/form-login.png">
-            <div class="main-row">
-              <div class="row-text">
-                <h6>Development</h6>
-              </div>
-              <div class="row-icon">
-                <i class='bx bx-heart'></i>
-              </div>
-            </div>
-            <h3>Mobile app landing design & Services</h3>
-          </div>
-
-          <div class="row">
-            <img src="img/upload-files.png">
-            <div class="main-row">
-              <div class="row-text">
-                <h6>Development</h6>
-              </div>
-              <div class="row-icon">
-                <i class='bx bx-heart'></i>
-              </div>
-            </div>
-            <h3>Mobile app landing design & Services</h3>
-          </div>
-
-          <div class="row">
-            <img src="img/Table-data.png">
-            <div class="main-row">
-              <div class="row-text">
-                <h6>Development</h6>
-              </div>
-              <div class="row-icon">
-                <i class='bx bx-heart'></i>
-              </div>
-            </div>
-            <h3>Mobile app landing design & Services</h3>
-          </div>
+          <h4>Restaurant Design & Services (HTML, CSS, JavaScript)</h4>
         </div>
-        <a href="#" class="btn-more">See more</a>
-     </section>
-
-     <!-- Section Projects -->
-
-    <section class="projects" id="projects">
-      <div class="projects-container">
-        <div class="main-text">
-          <h2>My Projects</h2>
-          <h4>Some Of My Distinguished Works</h4>
+    
+        <!-- Segunda imagen: HTML, CSS y JavaScript -->
+        <div class="row">
+          <img src="img/amazon.png" alt="Screenshot of an Amazon-inspired e-commerce app interface displaying products." />
+          <div class="main-row">
+            <div class="row-text">
+              <h3>Amazon</h3>
+            </div>
+            <div class="row-icon">
+              <i class='bx bx-heart' aria-hidden="true"></i>
+            </div>
+          </div>
+          <h4>E-commerce App Interface (HTML, CSS, JavaScript)</h4>
         </div>
-        <div class="projects-list">
-          <div class="project">
-            <img src="img/about.jpg" alt="Project Image">
-            <div class="layer">
-              <h3>Social Media App</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe corporis reiciendis commodi dolorem illum.</p>
-              <a href="#" class="btn"><i>Link</i></a>
+    
+        <!-- Tercera imagen: HTML, CSS y JavaScript -->
+        <div class="row">
+          <img src="img/socialapp.png" alt="Screenshot of a social networking app showcasing user posts and interactions." />
+          <div class="main-row">
+            <div class="row-text">
+              <h3>Social Networks</h3>
+            </div>
+            <div class="row-icon">
+              <i class='bx bx-heart' aria-hidden="true"></i>
             </div>
           </div>
-          <div class="project">
-            <img src="img/about.jpg" alt="Project Image">
-            <div class="layer">
-              <h3>Music App</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe corporis reiciendis commodi dolorem illum.</p>
-              <a href="#" class="btn"><i>Link</i></a>
+          <h4>Social Networking App (HTML, CSS, JavaScript)</h4>
+        </div>
+    
+        <!-- Cuarta imagen: React y Tailwind CSS -->
+        <div class="row">
+          <img src="img/virtual.png" alt="Screenshot of a virtual reality website showcasing immersive user experiences." />
+          <div class="main-row">
+            <div class="row-text">
+              <h3>Virtual Reality</h3>
+            </div>
+            <div class="row-icon">
+              <i class='bx bx-heart' aria-hidden="true"></i>
             </div>
           </div>
-          <div class="project">
-            <img src="img/about.jpg" alt="Project Image">
-            <div class="layer">
-              <h3>Online Shopping App</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe corporis reiciendis commodi dolorem illum.</p>
-              <a href="#" class="btn"><i>Link</i></a>
+          <h4>Virtual Reality Website (React, Tailwind CSS)</h4>
+        </div>
+    
+        <!-- Quinta imagen: Next.js y React -->
+        <div class="row">
+          <img src="img/car_showcase.png" alt="Screenshot of a car showcase website featuring detailed car models and specifications." />
+          <div class="main-row">
+            <div class="row-text">
+              <h3>Car Showcase</h3>
+            </div>
+            <div class="row-icon">
+              <i class='bx bx-heart' aria-hidden="true"></i>
             </div>
           </div>
+          <h4>Car Showcase Website (Next.js, React)</h4>
+        </div>
+    
+        <!-- Sexta imagen: Node.js, Express y MongoDB -->
+        <div class="row">
+          <img src="img/Node-express-Mongodb.png" alt="Screenshot of a backend system interface showcasing data management with Node.js, Express, and MongoDB." />
+          <div class="main-row">
+            <div class="row-text">
+              <h3>APIs</h3>
+            </div>
+            <div class="row-icon">
+              <i class='bx bx-heart' aria-hidden="true"></i>
+            </div>
+          </div>
+          <h4>Backend System for Data Management (Node.js, Express, MongoDB)</h4>
         </div>
       </div>
-    </section>      
+    
+      <a href="#" class="btn-more" aria-label="See more of my portfolio">See more</a>
+    </section>
+    
 
      <!-- Contact Section -->
 
@@ -403,36 +382,60 @@
       <div class="contact-text">
         <h2>Contact Me</h2>
         <h4>Let's Work Together</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ducimus dicta fugit incidunt 
-          repellendus iste vero beatae sint voluptas sapiente hic temporibus soluta dolore, perferendis optio, esse odit labore dolores.</p>
+        <p>If you're interested in collaborating or have any questions, feel free to reach out! 
+          Fill out the form below, and I'll get back to you as soon as possible.</p>
           <div class="contact-list">
-            <li><a href="#">Mansoura - Dakhalia - Egyp</a></li>
-            <li><a href="#">admin@example.com</a></li>
-            <li><a href="#">0123456789</a></li>
+            <li><a href="#">Mexico City - CDMX</a></li>
+            <li><a href="#">angelcallejasegura2024@gmail.com</a></li>
           </div>
           <div class="contact-icons">
-            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
-            <a href="#"><i class='bx bxl-github' ></i></a>
-            <a href="#"><i class='bx bx-envelope' ></i></a>
+            <a 
+              href="https://www.linkedin.com/in/angel-calleja-414a212b4/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Visit my LinkedIn profile"
+            >
+              <i class='bx bxl-linkedin-square' aria-hidden="true"></i>
+            </a>
+            <a 
+              href="https://github.com/AyanokoujiCoder" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Visit my GitHub profile"
+            >
+              <i class='bx bxl-github' aria-hidden="true"></i>
+            </a>
+            <a 
+              href="https://www.upwork.com/freelancers/~01d265c2eec5fc7bad" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Visit my Upwork profile"
+            >
+              <i class='bx bxl-upwork' aria-hidden="true"></i>
+            </a>
           </div>
-          <a href="" class="btn-cv">Download CV</a>
+          
+          <a href="img/Elegant Minimalist CV Resume By Angel.pdf.pdf" class="btn-cv" download>Download CV</a>
         </div>
 
+        <!-- https://web3forms.com/platforms/html-contact-form -->
+
         <div class="contact-form">
-          <form action="">
-            <input type="" placeholder="Enter Your Name" required>
-            <input type="email" placeholder="Enter your Email" required>
-            <input type="" placeholder="Enter Your Subject">
-            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-            <input type="submit" value="submit" class="send">
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="c4e8b6a1-0957-4f47-89a5-b16156e0275d">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <textarea name="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+            <button type="submit" class="send">Send</button>
           </form>
-        </div>
+        </div>      
      </section>
 
      <!-- Footer -->
 
      <footer class="last-text">
-      <p>Developed with ❤️ by A.C &copy; 2002</p>
+      <p>Developed with ❤️ by A.C &copy; 2024-2025</p>
      </footer>
 
      <!-- Arrow Top -->
